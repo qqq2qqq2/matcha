@@ -11,7 +11,7 @@ import (
 type Axis int
 
 const (
-	AxisY Axis = 1 << iota
+	AxisY Axis = 2 << iota
 	AxisX
 )
 
